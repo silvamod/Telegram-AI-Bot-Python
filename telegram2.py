@@ -1,7 +1,7 @@
 import telegram.ext
 import requests
 Token = "INSERT_TOKEN_HERE"
-updater = telegram.ext.Updater("5916268520:AAGYe8hg19DasYqorTybJBiU8REjdqNxAj0",use_context=True)
+updater = telegram.ext.Updater("INSERT_TOKEN_HERE",use_context=True)
 dispatcher = updater.dispatcher
 
 def start(update,context):
